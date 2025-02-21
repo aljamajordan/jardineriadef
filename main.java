@@ -20,11 +20,11 @@ public class main {
             if (opcion.equals("1")) {
                 System.out.print("Ingrese parte del nombre: ");
                 String nombre = scan.nextLine();
-                tienda.buscarPorNombre(nombre);
+                buscar.buscarPorNombre(nombre);
             } else if (opcion.equals("2")) {
                 System.out.print("Ingrese el origen: ");
                 String origen = scan.nextLine();
-                tienda.buscarPorOrigen(origen);
+                buscar.buscarPorOrigen(origen);
             } else if (opcion.equals("3")) {
                 System.out.print("Ingrese el nombre del producto: ");
                 String producto = scan.nextLine();
